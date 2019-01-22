@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;    
+}
+.hero {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.521), rgba(0, 0, 0, 0.548)), 
+    url(./img/img-exercise1.jpg);
+}
+.container {
+    width: 150px;
+    height: 200px;
+    background: red;
+
+}
+.box{
+    width: 150px;
+    height: 100px;
+    vertical-align: bottom;
+    background: yellow;
+}

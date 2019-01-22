@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+header, footer {
+    background: black;
+    padding: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+header {
+    height: 100px;    
+}
+header h1{
+    margin: 0;
+    line-height: 100;
+}
+img {
+    width: 100%;
+}
+.img-container {
+    width: 31%;
+    display: inline-block;
+    margin: 0;
+    margin-right: 15px;
+}
+.images {
+    padding: 50px 0 20px;
+}
+.hero {
+    /* background-image: linear-gradient(to bottom, rgba(100, 100, 100, 0), rgba(0, 0, 0, 0.788) 95%), 
+    url(./img/img-exercise1.jpg); */
+    background: url(./img/img-exercise1.jpg) no-repeat;
+    background-size: cover;
+    background-position: 25% 75%;
+    height: 400px;    
+}
+main {
+    padding: 10px 0 30px;
+}
+.img-cap {
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+}
+footer {
+    height: 400px;
+}

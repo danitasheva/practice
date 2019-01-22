@@ -1,0 +1,25 @@
+img {
+    width: 100%;
+}
+
+.img-container {
+    /* height: 200px; */
+    width: 30%;
+}
+header {
+    height: 100px;
+    background: black;
+}
+.hero {
+    height: 400px;
+    /* background: linear-gradient(140deg, blue 10%, red ); */
+    background-image: url(./img/img1.jpg) 
+        no-repeat
+        linear-gradient(
+            140deg, 
+            rgba(0, 0, 255, 0.39) 10%, 
+            rgba(255, 0, 0, 0.562));
+    background-size: cover;
+    background-position: 50% 20%;
+    
+}
